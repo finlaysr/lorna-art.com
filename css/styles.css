@@ -1,0 +1,92 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: rgb(35, 73, 130);
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+#nav {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    height: max-content;
+    text-align: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#nav a:hover {
+    background-color: white;
+    color: lightblue;
+}
+
+.artwork {
+    max-width: 60%;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+div#artworks_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#artworks_grid a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.artwork_card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px lightgray;
+    margin: 15px;
+}
+
+div.artwork_card:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+div.artwork_card img {
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.artwork_card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+div.artwork_card p {
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 10px 0px;
+}
